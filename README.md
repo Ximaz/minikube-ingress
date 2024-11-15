@@ -20,7 +20,7 @@ kubectl apply -f .
 ```
 
 This project contains a basic nginx application, replicated twice, that you should
-be able to reach on your browser through `http://localhost:8080`.
+be able to reach on your browser through `http://localhost`.
 
 # How to test
 
