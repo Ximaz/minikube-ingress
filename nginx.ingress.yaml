@@ -4,8 +4,12 @@ metadata:
   name: nginx-ingress
 spec:
   ingressClassName: nginx
+  # tls:
+  #   - hosts:
+  #       - localhost # your actual domain name
+  #     secretName: nginx-secret
   rules:
-      - host: poll.dop.io
+      - host: localhost
         http:
           paths:
             - path: /
