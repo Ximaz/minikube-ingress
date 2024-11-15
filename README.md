@@ -27,7 +27,7 @@ be able to reach on your browser through `http://localhost:8080`.
 To test everything works fine, you can use this Python one-liner :
 
 ```bash
-python -c "import requsts; print(requests.get('http://localhost', headers={'Host': 'localhost'}).text)"
+python -c "import requests; print(requests.get('http://localhost', headers={'Host': 'localhost'}).text)"
 ```
 
 Or if you can access a shell :
@@ -62,7 +62,7 @@ The `Host` header must be `sub.my-domain.io`, and the request would look like
 this :
 
 ```bash
-python -c "import requsts; print(requests.get('http://localhost', headers={'Host': 'sub.my-domain.io'}).text)"
+python -c "import requests; print(requests.get('http://localhost', headers={'Host': 'sub.my-domain.io'}).text)"
 ```
 
 Or using cURL :
